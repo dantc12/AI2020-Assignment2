@@ -1,0 +1,32 @@
+#N 12
+
+#V1 D10 S
+#V2 D10 P0
+#V3 D100 P2
+#V4 D5 P3
+#V5 D9 P1
+#V6 D13 S
+#V7 D16 P4
+#V8 D20 P1
+#V9 D5 P10
+#V10 D10 S
+#V11 D30 S
+#V12 D30 P10
+
+
+#E1 1 2 W1                 ; Edge 1 from vertex 1 to vertex 2, weight 1
+#E2 2 3 W2                 ; Edge 2 from vertex 3 to vertex 4, weight 1
+#E3 2 5 W1                 ; Edge 3 from vertex 2 to vertex 3, weight 1
+#E4 3 4 W2                 ; Edge 4 from vertex 1 to vertex 3, weight 4
+#E5 4 5 W4
+#E6 3 6 W1
+#E7 4 10 W2
+#E8 3 8 W1
+#E9 1 9 W3
+#E10 10 2 W3
+#E11 11 6 W1
+#E12 12 2 W2
+#E13 7 11 W1
+#E14 8 10 W2
+#E15 9 11 W3
+#E16 12 10 W1
